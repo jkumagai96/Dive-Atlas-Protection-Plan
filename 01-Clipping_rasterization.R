@@ -6,10 +6,10 @@ library(rasterVis)
 library(RColorBrewer)
 library(rgdal)
 
-p <- read_sf("shp/Seagrasses/WCMC_013_014_SeagrassesPy_v6.shp")
+p <- read_sf("Data_Original/seagrasses/01_Data/WCMC_013_014_SeagrassesPy_v6.shp")
 
-eez <- read_sf("shp/eez_Mexico.shp")
-eez2 <- readOGR("shp/eez_Mexico.shp")
+eez <- read_sf("Data_original/eez/eez_Mexico.shp")
+#eez2 <- readOGR("Data_original/eez/eez_Mexico.shp")
 
 head(eez)
 
