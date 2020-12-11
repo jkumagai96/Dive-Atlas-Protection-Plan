@@ -9,7 +9,7 @@ library(cowplot)
 
 #### Load Data ####
 data <- read.csv("data/results/protection_table.csv")
-data$habitat <- c("ColdCorals", "Coral_Reef", "Mangroves", "Saltmarshes", "Seagrasses")
+data$habitat <- c("Cold Corals", "Coral Reefs", "Mangroves", "Saltmarshes", "Seagrasses")
 
 all <- data[, 1:3]
 no_take <- data[,c(1, 4, 5)]
